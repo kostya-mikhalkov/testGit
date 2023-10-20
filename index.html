@@ -1,0 +1,561 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie DB</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__search">
+            <form action="#">
+                <input type="text" placeholder="Поиск">
+            </form>
+        </div>
+        <div class="header__logo">
+            <img src="icons/Logotype.svg" alt="logo">
+        </div>
+    </header>
+    <main class="promo">
+        <div class="promo__menu">
+            <nav class="promo__menu-list">
+                <ul>
+                    <li><a class="promo__menu-item promo__menu-item_active" href="#">Фильмы</a></li>
+                    <li><a class="promo__menu-item" href="#">Сериалы</a></li>
+                    <li><a class="promo__menu-item" href="#">Мультфильмы</a></li>
+                    <li><a class="promo__menu-item" href="#">Клипы</a></li>
+                    <li><a class="promo__menu-item" href="#">Трейлеры</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="promo__content">
+            <div class="promo__bg">
+                <div class="promo__genre">КОМЕДИЯ</div>
+                <div class="promo__title">МАРСИАНИН</div>
+                <div class="promo__descr">ИСТОРИЯ ЧЕЛОВЕКА, ВЫЖИВШЕГО НА ЧУЖОЙ ПЛАНЕТЕ В ОДИНОЧКУ</div>
+                <div class="promo__ratings">
+                    <span>IMDb: 8.0</span>
+                    <span>Кинопоиск: 7.7</span>
+                </div>
+            </div>
+            <div class="promo__interactive">
+                <div>
+                    <div class="promo__interactive-title">ПРОСМОТРЕННЫЕ ФИЛЬМЫ</div>
+                    <ul class="promo__interactive-list">
+                        <li class="promo__interactive-item">ЛОГАН
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">ЛИГА СПРАВЕДЛИВОСТИ
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">ЛА-ЛА ЛЭНД
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">ОДЕРЖИМОСТЬ
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">СКОТТ ПИЛИГРИМ ПРОТИВ...
+                            <div class="delete"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <form class="add">
+                        <div class="promo__interactive-title">ДОБАВИТЬ НОВЫЙ ФИЛЬМ</div>
+                        <span>Введите название фильма</span>
+                        <input class="adding__input" type="text" placeholder="Что уже посмотрено...?">
+                        <span>Сделать его любимым?</span>
+                        <input type="checkbox">
+                        <span class="yes">Да!</span>
+                        <button>Подтвердить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="promo__adv">
+            <div class="promo__adv-title">Реклама от спонсоров</div>
+            <img src="img/content_1.jpg" alt="some picture">
+            <img src="img/content_2.jpg" alt="some picture">
+            <img src="img/content_3.png" alt="some picture">
+        </div>
+        <script src="js/script.js"></script>
+    </main> -->
+
+    <!-- <!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/index.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <div id="container">
+    <div class="pane">
+      <h3>Лошадь</h3>
+      <p>Домашняя лошадь - животное семейства непарнокопытных, одомашненный и единственный сохранившийся подвид дикой лошади, вымершей в дикой природе, за исключением небольшой популяции лошади Пржевальского.</p>
+      <button class="remove-button">[x]</button>
+    </div>
+    <div class="pane">
+      <h3>Осёл</h3>
+      <p>Домашний осёл или ишак — одомашненный подвид дикого осла, сыгравший важную историческую роль в развитии хозяйства и культуры человека. Все одомашненные ослы относятся к африканским ослам.</p>
+      <button class="remove-button">[x]</button>
+    </div>
+    <div class="pane">
+      <h3>Кошка</h3>
+      <p>Кошка, или домашняя кошка (лат. Félis silvéstris cátus), — домашнее животное, одно из наиболее популярных (наряду с собакой) "животных-компаньонов". С точки зрения научной систематики, домашняя кошка — млекопитающее семейства кошачьих отряда хищных. Ранее домашнюю кошку нередко рассматривали как отдельный биологический вид.
+      </p>
+      <button class="remove-button">[x]</button>
+    </div>
+  </div>
+
+  <script>
+    container.onclick = function(e){
+        let btn = e.target.closest('.remove-button');
+        if(!btn){
+            return
+        }
+        btn.parentNode.remove();
+    }
+  </script>
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<style>
+    span:hover {
+        color: aqua;
+    }
+
+    
+</style>
+<body>
+
+  <ul class="tree" id="tree">
+    <li>Животные
+      <ul>
+        <li>Млекопитающие
+          <ul>
+            <li>Коровы</li>
+            <li>Ослы</li>
+            <li>Собаки</li>
+            <li>Тигры</li>
+          </ul>
+        </li>
+        <li><Другие
+          <ul>
+            <li>Змеи</li>
+            <li>Птицы</li>
+            <li>Ящерицы</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Рыбы
+      <ul>
+        <li>Аквариумные
+          <ul>
+            <li>Гуппи</li>
+            <li>Скалярии</li>
+          </ul>
+        </li>
+        <li>Морские
+          <ul>
+            <li>Морская форель</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+<script>
+    for(let li of tree.querySelectorAll('li')){
+        let span = document.createElement('span');
+        li.prepend(span);
+        span.append(span.nextSibling);
+    }
+    tree.onclick = function(e){
+        let span = e.target.closest('span');
+        if(!span){
+            return
+        }
+        let li = e.target.closest('li');
+        li.children[1].hidden = !li.children[1].hidden; 
+    }
+</script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    #contents {
+      padding: 5px;
+      border: 1px green solid;
+    }
+  </style>
+</head>
+
+<body>
+
+  <fieldset id="contents">
+    <legend>#contents</legend>
+    <p>
+      Как насчёт того, чтобы прочитать <a href="https://wikipedia.org">Википедию</a> или посетить <a href="https://w3.org"><i>W3.org</i></a> и узнать о современных стандартах?
+    </p>
+  </fieldset>
+<script>
+    let cont = document.getElementById('contents');
+    cont.addEventListener('click', function(e){
+        // let targetA = e.target.closest('a');
+        // if(!targetA){
+        //     return
+        // }
+        // if(targetA && cont.contains(targetA)){
+        //     let href = e.target.getAttribute('href');
+        // if(href){
+        //     let que = confirm('hello');
+        //     if(que === false){
+        //         e.preventDefault();
+        //     }
+        // }            
+        // }
+        function handl(href){
+            let que = confirm(`did you want ${href}`);
+            if(!que){
+                e.preventDefault();
+            }
+        }
+        let el = e.target.closest('a');
+        if(el){
+            return handl(el.getAttribute('href'));
+        }
+    });
+</script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    .selected {
+      background: #0f0;
+    }
+
+    li {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  Кликни на элемент списка, чтобы выделить его.
+  <br>
+
+  <ul id="ul">
+    <li>Кристофер Робин</li>
+    <li>Винни Пух</li>
+    <li>Тигра</li>
+    <li>Кенга</li>
+    <li>Кролик. Просто Кролик.</li>
+  </ul>
+
+  <script>
+    function butt(e){
+        e.preventDefault();
+        let btn = e.target.closest('li');
+        if(!btn){
+            return;
+        }
+        if(e.ctrlKey){
+            toggle(e.target);
+        }else{
+            single(e.target)
+        }
+
+        btn.classList.add('selected');
+       
+    }
+    function single(li){
+        let lin = document.querySelectorAll('.selected');
+        for(let elem of lin){
+            elem.classList.remove('selected')
+        }
+        li.classList.add('selected');
+    }
+    ul.addEventListener('click', butt);
+    ul.onmousedown = function() {
+      return false;
+    };
+    // ul.removeEventListener('click', butt);
+  </script>
+
+</body>
+</html> -->
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      height: 2000px;
+      /* подсказка должна работать и после прокрутки страницы */
+    }
+
+    .tooltip {
+      position: fixed;
+      z-index: 100;
+
+      padding: 10px 20px;
+
+      border: 1px solid #b3c9ce;
+      border-radius: 4px;
+      text-align: center;
+      font: italic 14px/1.3 sans-serif;
+      color: #333;
+      background: #fff;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+    }
+
+    #house {
+      margin-top: 50px;
+      width: 400px;
+      border: 1px solid brown;
+    }
+
+    #roof {
+      width: 0;
+      height: 0;
+      border-left: 200px solid transparent;
+      border-right: 200px solid transparent;
+      border-bottom: 20px solid brown;
+      margin-top: -20px;
+    }
+
+    p {
+      text-align: justify;
+      margin: 10px 3px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div data-tooltip="Здесь домашний интерьер" id="house">
+    <div data-tooltip="Здесь крыша" id="roof"></div>
+
+    <p>Жили-были на свете три поросенка. Три брата. Все одинакового роста, кругленькие, розовые, с одинаковыми веселыми хвостиками.</p>
+
+    <p>Даже имена у них были похожи. Звали поросят: Ниф-Ниф, Нуф-Нуф и Наф-Наф. Все лето они кувыркались в зеленой траве, грелись на солнышке, нежились в лужах.</p>
+
+    <p>Но вот наступила осень. Солнце уже не так сильно припекало, серые облака тянулись над пожелтевшим лесом.</p>
+
+    <p>- Пора нам подумать о зиме, - сказал как-то Наф-Наф. <a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8_%D0%BF%D0%BE%D1%80%D0%BE%D1%81%D1%91%D0%BD%D0%BA%D0%B0" data-tooltip="Читать далее…">Наведи курсор на меня</a></p>
+
+  </div>
+
+  <script>
+    // ...ваш код...
+    let toolElem;
+    document.addEventListener('mouseover', function(e){
+        let target = e.target.closest('[data-tooltip]');
+        let messageHtml = target.dataset.tooltip;
+        if(!target){
+            return
+        }
+        toolElem = document.createElement('div');
+        toolElem.className = 'tooltip';
+        toolElem.innerHTML = messageHtml;
+        document.body.append(toolElem);
+        let coord = target.getBoundingClientRect();
+        let left = coord.left + (target.offsetWidth - toolElem.offsetWidth)/2;
+        if(left < 0){
+            left = 0;
+        }
+        let top = coord.top - toolElem.offsetHeight;
+        if(top < 0){
+            top = coord.top + target.offsetHeight;
+        } 
+        toolElem.style.left = left + 'px';
+        toolElem.style.top = top + 'px';
+    })
+    document.addEventListener('mouseout', function(e){
+        if(toolElem){
+            toolElem.remove()
+        };
+        toolElem = null;
+    });
+    function getElem(elem, html){
+        let arr = document.createElement('div');
+        arr.style.position = 'fixed';
+        arr.style.color = 'blue';
+        let cord = elem.getBoundingClientRect();
+        arr.innerHTML = html;
+        arr.style.top = cord.top + 'px';
+        arr.style.left = cord.left + 'px';
+        document.body.append(arr);
+    }
+    let hou = document.getElementById('roof');
+    getElem(hou, 'RUSLANNNNNN');
+  </script>
+
+</body>
+</html>
+
+    <!-- <!DOCTYPE HTML>
+    <html>
+    
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/index.css">
+    </head>
+    
+    <body>
+    <input type="button" id="btn" value="hello">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sint atque dolorum fuga ad incidunt voluptatum error fugiat animi amet! Odio temporibus nulla id unde quaerat dignissimos enim nisi rem provident molestias sit tempore omnis recusandae
+        esse sequi officia sapiente.</p>
+    
+      <blockquote>
+        Teacher: Why are you late?
+        Student: There was a man who lost a hundred dollar bill.
+        Teacher: That's nice. Were you helping him look for it?
+        Student: No. I was standing on it.
+      </blockquote>
+    
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sint atque dolorum fuga ad incidunt voluptatum error fugiat animi amet! Odio temporibus nulla id unde quaerat dignissimos enim nisi rem provident molestias sit tempore omnis recusandae
+        esse sequi officia sapiente.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus facere sed at, sint accusantium ipsa id, sunt rerum et iure odit tempora reiciendis. Ipsa dolorum, iure autem eum alias consectetur.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi autem harum ex assumenda beatae libero sed natus unde aut, adipisci ab nihil, vel officiis fugit distinctio minus ipsa commodi tempora.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui itaque, veniam consequuntur neque totam perferendis eaque nemo quo? Impedit ullam iusto fuga voluptas provident laudantium architecto quisquam error enim qui!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto culpa sit error facilis tenetur atque, asperiores enim ratione quae maiores facere quam commodi quia molestias neque unde fugiat fugit at!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias quisquam, aliquid placeat repudiandae vel architecto officiis esse officia quia consectetur necessitatibus quidem illum modi id consequatur. Dolorum, placeat optio. Ullam.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus maiores quisquam labore optio excepturi perspiciatis, sed voluptatum molestiae eveniet deserunt! Quisquam, minus recusandae tempore voluptatibus ut voluptas perspiciatis dolores maiores!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iusto dolore et eos porro impedit similique consectetur! Ipsa iure doloribus sunt voluptatibus, at dolor recusandae ratione culpa vitae harum dignissimos!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo debitis odio maxime est aperiam temporibus earum autem praesentium rerum rem, animi voluptate, itaque eius dolorum, aliquam illo eveniet nesciunt sint.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ab nihil deserunt et explicabo cumque quae dolores nam tempore, adipisci magni nobis dolore pariatur sapiente necessitatibus praesentium optio ea tempora?
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit magni ullam quidem qui officia voluptatum rerum. Quibusdam fugit natus libero. Illum accusamus aliquam sequi deleniti quidem reprehenderit eos perspiciatis ipsam.
+
+    </p>
+    <script src="js/script.js"></script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    #field {
+      width: 200px;
+      height: 150px;
+      border: 10px solid black;
+      background-color: #00FF00;
+      overflow: hidden;
+      position: relative;
+    }
+    #ball {
+  position: absolute;
+  left: 0; /* по отношению к ближайшему расположенному предку (поле) */
+  top: 0;
+  transition: 1s all; /* CSS-анимация для значений left/top делает передвижение мяча плавным */
+}
+  </style>
+</head>
+
+<body style="height:2000px">
+
+  Нажмите на поле для перемещения мяча.
+  <br> Мяч не должен выходить за границы поля.
+
+
+  <div id="field">
+    <img src="https://ru.js.cx/clipart/ball.svg" id="ball"> . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+    . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  </div> -->
+
+  <!-- <!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  Код кнопки (возможно вам нужно будет изменить CSS):
+  <button class="remove-button">[x]</button>
+
+  <div>
+    <div class="pane">
+      <h3>Лошадь</h3>
+      <p>Домашняя лошадь — животное семейства непарнокопытных, одомашненный и единственный сохранившийся подвид дикой лошади, вымершей в дикой природе, за исключением небольшой популяции лошади Пржевальского.</p>
+    </div>
+    <div class="pane">
+      <h3>Осёл</h3>
+      <p>Домашний осёл (лат. Equus asinus asinus), или ишак, — одомашненный подвид дикого осла (Equus asinus), сыгравший важную историческую роль в развитии хозяйства и культуры человека и по-прежнему широко в хозяйстве многих развивающихся стран.</p>
+    </div>
+    <div class="pane">
+      <h3>Кошка</h3>
+      <p>Кошка, или домашняя кошка (лат. Felis silvestris catus), — домашнее животное, одно из наиболее популярных(наряду с собакой) «животных-компаньонов». Являясь одиночным охотником на грызунов и других мелких животных, кошка — социальное животное, использующее для общения широкий диапазон звуковых сигналов.</p>
+    </div>
+  </div>
+  <script>
+    // field.onclick = function(e){
+    //     let fieldCord = field.getBoundingClientRect();
+    //     let obj = {
+    //         left: e.clientX - ball.offsetWidth/2 - fieldCord.left - field.clientLeft,
+    //         top: e.clientY - ball.offsetHeight/2 - fieldCord.top - field.clientTop
+    //     }
+    //     if(obj.top < 0){
+    //         // ball.style.left = Math.round(e.clientX - ball.offsetWidth - fieldCord.left - field.clientLeft);
+    //         ball.style.top = 0;
+    //     }
+    //     if(obj.left < 0){
+    //         // ball.style.left = Math.round(e.clientX - ball.offsetWidth - fieldCord.left - field.clientLeft);
+    //         ball.style.left = 0;
+    //     }
+    //         ball.style.left = Math.round(e.clientX - ball.offsetWidth/2 - fieldCord.left - field.clientLeft);
+    //     ball.style.top = Math.round(e.clientY - ball.offsetHeight/2 - fieldCord.top - field.clientTop);
+        
+        
+    //     console.log(e.clientX)
+    // }
+        const divPane = document.querySelectorAll('.pane');
+        const btn = document.getElementsByClassName('remove-button');
+        // btn[0].style.left = divPane.offsetLeft - divPane.clientWidth;
+        
+        console.dir(btn);
+        // let arr = Array.from(divPane);
+        for(let item of divPane){
+            item.insertAdjacentHTML('afterbegin', '<button class="remove-button">[x]</button>')
+            item.firstChild.onclick = function(){
+            item.remove();
+        }
+        }
+     
+        
+        
+        console.log('vv')
+  </script>
+
+</body>
+</html> -->
